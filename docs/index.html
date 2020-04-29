@@ -25,7 +25,20 @@
 <p><a href="">Milestone Video</a></p>
 <p>Progress: So far we've researched the properties of magnifying glasses (the details of which are in the slides linked). We also found an ant model which we've utilized in Blender to make our scene. This ant model mesh used rectangles, so we modified the Pathtracer code to split apart rectangles so that bounding volume hierarchy worked for the render.</p>
 <p>Preliminary Results: Below is the ant model we will use rendered using the Pathtracer. Our current code is based on p3-1 so the ant is rendered with lambertian material, and we will migrate over to p3-2 to allow rendering of glossy/mirror materials as well as microfacet materials.</p>
-<img src="images/ant.png" width="1000px">
+<div align="center">
+  <table style="width=100%">
+	<tr>
+	  <td>
+		<img src="images/ant.png" align="middle" height="350px"/>
+		<figcaption align="middle">Lambertian ant with point light source rendered in Pathtracer </figcaption>
+	  </td>
+	  <td>
+		<img src="images/ant dragon.png" align="middle" height="350px"/>
+		<figcaption align="middle">Blender scene of dragon and our new ant model</figcaption>
+	  </td>
+	</tr>
+  </table>
+</div>
 <p>Updated Plan: </p>
 <p>We created several scenes with ants in Blenber, but we are facing a few hurdles handling exported Collada (.dae) files from Blender.
 <br>This is slowing down our scene generation and setting us a little behind our original plan.
